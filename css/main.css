@@ -1,0 +1,83 @@
+/* GENERAL STYLING FOR THE SITE
+	REMEMBER:
+		Use relative positioning and percentages as often as possible and design for mobile first.
+		READ ARTICLES!
+*/
+body{
+	background-color: lightblue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: auto;
+	right:0px;
+	left:60px;
+
+	background-color: #FFFFF0;
+	box-shadow: 3px 0px 4px #666666;
+}
+
+main {
+	height:850px;
+	width:100%;
+	right:0px;
+	left:0px;
+
+}
+
+
+/* SETS THE HEADER */
+header{
+	height:250px;
+	width:100%;
+	left:0px;
+	right:0px;
+	top:0px;
+	position:fixed;
+	z-index:5;
+
+	background-color: black;
+}
+
+header h1{
+	color: white;
+	letter-spacing: 12px;
+	text-decoration: underline;
+}
+
+
+/* THE NAVIGATION IS PUT WITHIN THE HEADER FOR PLACEMENT REASONS */
+nav {
+	width:50px;
+	height:100%;
+	left:0px;
+	top:0px;
+	z-index: 6;
+	float:left;
+	position:fixed;
+	display:block;
+
+	background-color:darkgray;
+
+
+}
+
+/* SETS THE FOOTER VALUES */
+footer {
+	height:150px;
+	float:bottom;
+
+	background-color: black;
+	color:white;
+	border-top: 1px darkgray solid;
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}
+
+/* ANCHOR STYLING */
+a {
+	color:white;
+	text-decoration: none;
+}
+
