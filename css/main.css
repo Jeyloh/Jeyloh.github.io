@@ -9,10 +9,9 @@ body{
 }
 
 #wrapper {
-	width: auto;
+	width:100%;
 	right:0px;
 	left:60px;
-
 	background-color: #FFFFF0;
 	box-shadow: 3px 0px 4px #666666;
 }
@@ -22,22 +21,23 @@ main {
 	width:100%;
 	right:0px;
 	left:0px;
-
+	margin-top:400px;
 }
 
 
 /* SETS THE HEADER */
 header{
-	height:250px;
-	width:100%;
-	left:0px;
+	height:400px;
+	left:0px; /* Set this to the same as #mySidenav width */
 	right:0px;
 	top:0px;
 	position:fixed;
 	z-index:5;
-
 	background-color: black;
+	color:white;
+
 }
+
 
 header h1{
 	color: white;
@@ -46,21 +46,6 @@ header h1{
 }
 
 
-/* THE NAVIGATION IS PUT WITHIN THE HEADER FOR PLACEMENT REASONS */
-nav {
-	width:50px;
-	height:100%;
-	left:0px;
-	top:0px;
-	z-index: 6;
-	float:left;
-	position:fixed;
-	display:block;
-
-	background-color:darkgray;
-
-
-}
 
 /* SETS THE FOOTER VALUES */
 footer {
@@ -81,3 +66,14 @@ a {
 	text-decoration: none;
 }
 
+.banner img{
+	width:100%;
+}
+
+#index-main-content{
+	height:500px;
+	background-color: lightgreen;
+	
+
+
+}
