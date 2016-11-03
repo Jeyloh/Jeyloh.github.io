@@ -17,17 +17,16 @@ body{
 }
 
 main {
-	height:850px;
 	width:100%;
 	right:0px;
 	left:0px;
-	margin-top:400px;
+	margin-top:300px; /* Set this to the height of the header */
 }
 
 
 /* SETS THE HEADER */
 header{
-	height:400px;
+	height:300px;
 	left:0px; /* Set this to the same as #mySidenav width */
 	right:0px;
 	top:0px;
@@ -35,14 +34,15 @@ header{
 	z-index:5;
 	background-color: black;
 	color:white;
-
+	transition: 0.5s;
 }
 
 
-header h1{
+header h1, header h3{
 	color: white;
 	letter-spacing: 12px;
 	text-decoration: underline;
+	text-align:center;
 }
 
 
@@ -70,10 +70,23 @@ a {
 	width:100%;
 }
 
-#index-main-content{
-	height:500px;
-	background-color: lightgreen;
-	
 
+.content {
+	padding: 50px 50px 50px 50px;
+	text-align: left;
+	background-color: lightgreen;
+	height:300px;
+}
+
+#index-content{
+	height:500px;
+}
+#header-social-media-buttons{
+    text-align:center;
+    padding-right:10px;
+}
+#header-social-media-buttons img{
+    width:54px;
+    height:54px;
 
 }
