@@ -6,21 +6,30 @@
 <head>
 	<title>Portfolio - Home</title>
 	<meta charset="utf-8">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/menuHandling.js"></script>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/fadeoutmenu.css">
-	<script src="js/fadeoutmenu.js"></script>
+	<link rel="stylesheet" href="css/menuHandling.css">
+
 </head>
 <body>
 	<div id="wrapper">
 		<header id="header">
 			<h1>My Portfolio Website</h1>
 			<h3>- Jørgen Lybeck Hansen -</h3>
-			<nav id="mySidenav" class="sidenav" onmouseover="openNav()" onmouseleave="closeNav()">&times;
-				<a href="index.html">Home</a>
-				<a href="projects.html">Projects</a>
-				<a href="contact.html">Contact Me</a>
-				<a href="blog.html">Blog</a>
-				<a href="jeyloh.github.io/robotboy">Robot Boy</a>
+			<nav id="mobile-sidenav" class="navbar" onmouseenter="openNav()" onmouseleave="closeNav()">
+				<a href="index.html" class="navbtn">Home</a>
+				<a href="projects.html" class="navbtn">Projects</a>
+				<a href="contact.html" class="navbtn">Contact Me</a>
+				<a href="blog.html" class="navbtn">Blog</a>
+				<a href="/robotboy" class="navbtn">Robot Boy</a>
+			</nav>
+			<nav id="computer-navbar" class="navbar">
+				<a href="index.html" class="navbtn">Home</a>
+				<a href="projects.html" class="navbtn">Projects</a>
+				<a href="contact.html" class="navbtn">Contact Me</a>
+				<a href="blog.html" class="navbtn">Blog</a>
+				<a href="/robotboy" class="navbtn">Robot Boy</a>
 			</nav>
 			<div id="header-social-media-buttons">
 				<a href="www.linkedin.com/jorgenlybeckhansen"><img src="resources/contact/github.png"></a>
@@ -31,7 +40,7 @@
 			</div>
 		</header>
 
-		<main>
+		<main id ="main">
 			<div class="content" id="index-content">
 			<!-- Add GitHub link, projects, facebook, phone, CV, linkedin, reflection document from bachelor
 					Bachelorthesis BLOG? with blog template from school.  
@@ -67,7 +76,7 @@
 					vestibulum pulvinar.</p>
 			</div>
 			<div class="banner">
-				<a href="jeyloh.github.io/robotboy"><img src="resources/banners/robotboy-banner.jpg"></a>
+				<img src="resources/banners/robotboy-banner.jpg">
 			</div>
 			<div class="content">
 				<h1>Robot Boy</h1>

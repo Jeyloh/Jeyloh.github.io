@@ -4,7 +4,7 @@
 		READ ARTICLES!
 */
 body{
-	background-color: lightblue;
+	background-color: #e0e4cc;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,11 +16,17 @@ body{
 	box-shadow: 3px 0px 4px #666666;
 }
 
-main {
+#main {
 	width:100%;
 	right:0px;
 	left:0px;
 	margin-top:300px; /* Set this to the height of the header */
+
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
 }
 
 
@@ -32,9 +38,15 @@ header{
 	top:0px;
 	position:fixed;
 	z-index:5;
-	background-color: black;
+    background-image: url("../resources/banners/header-ps.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
 	color:white;
-	transition: 0.5s;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
 }
 
 
@@ -74,19 +86,10 @@ a {
 .content {
 	padding: 50px 50px 50px 50px;
 	text-align: left;
-	background-color: lightgreen;
+	background-color: #73e1e7;
 	height:300px;
 }
 
 #index-content{
-	height:500px;
-}
-#header-social-media-buttons{
-    text-align:center;
-    padding-right:10px;
-}
-#header-social-media-buttons img{
-    width:54px;
-    height:54px;
-
+	height:400px;
 }
